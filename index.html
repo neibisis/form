@@ -1,50 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
-    <link rel="stylesheet" href="/css/Contacto.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactos</title>
+  <link rel="stylesheet" href="css/contacto.css">
 </head>
+
 <body>
-    <div class="principal">
-        <div class="izquierda">
-            <ol>
-                <li><a href="#">Encabezado de CV</a></li>
-                <li><a href="#">Historial laboral</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Aptítudes</a></li>
-                <li><a href="#">Resumen profesional</a></li>
-                <li><a href="#">Finalizar</a></li>
-            </ol> 
-        </div>
-        <div class="derecha">
-            <h1 align="center" class="encabezado-cv">¿C&oacutemo pueden contactarte los empleados?</h1>
-            <h5 align="center">Te recomendamos que incluyas un correo electr&oacute;nico y un n&uacute;mero de tel&eacute;fono</h5>
-    
-            <form action="#" method="post">
-                <div class="form-data"> NOMBRE <br>
-                <input type="text" name="NOMBRE" id="NOMBRE" placeholder="NOMBRE" class="caja-texto"> 
-                <input type="text" name="APELLIDO" id="APELLIDO" placeholder="APELLIDO" class="caja-texto">
-                </div>
-            <div>
-            <div>
-                <input type="text" name="CALLE" id="CALLE" placeholder="CALLE" class="caja-texto">
-            </div>
-            <input type="text" name="URBANIZACIÓN OPCIONAL" id="URBANIZACIÓN OPCIONAL" class="caja-texto">
-            </div>
-            <div>
-               <input type="text" name="CODIGO POSTAL" placeholder="CODIGO POSTAL" id="CODIGO POSTAL" class="caja-texto">
-               <input type="text" name="CUIDAD" id="CIUDAD" placeholder="CIUDAD" class="caja-texto">
-               <input type="text" name="COMUNIDAD AUTONOMA" id="COMUNIDAD AUTONOMA" placeholder="COMUNIDAD AUTONOMA" class="caja-texto">
-             </div>
-             <div>
-               <input type="text" name="TELEFONO" id="TELEFONO" placeholder="TELEFONO" class="caja-texto">
-               <input type="text" name="CORREO ELECTRONICO" id="CORREO ELECTRONICO" placeholder="CORREO ELECTRONICO" class="caja-texto">
-            </div>
-     </form>
-        </div>
+  <div class="principal">
+    <div class="izquierda">
+      <ol>
+        <li><a href="#">Encabezado de cv</a></li>
+        <li><a href="#">Historial laboral</a></li>
+        <li><a href="#">Formación</a></li>
+        <li><a href="#">Aptítudes</a></li>
+        <li><a href="#">Resumen profesional</a></li>
+        <li><a href="#">Finalizar</a></li>
+      </ol>
     </div>
+
+    <div class="derecha">
+      <h1 class="encabezado-cv">¿c&oacutemo pueden contactarte los empleados?</h1>
+      <h5 class="subtitulo">te recomendamos que incluyas un correo electr&oacute;nico y un n&uacute;mero de
+        tel&eacute;fono</h5>
+
+      <div class="contenedor">
+        <div class="foto-usuario">
+          <img src="img/user.png">
+        </div>
+
+        <form action="#" method="post">
+          <div class="form-data">
+
+            <div class="form-input">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="form-input">
+              <label for="nombre">Apellido</label>
+              <input type="text" name="apellido" id="apellido">
+            </div>
+
+          </div>
+
+          <div>
+            <div>
+              <input type="text" name="calle" id="calle" placeholder="calle" class="caja-texto">
+            </div>
+            <input type="text" name="urbanizacion-opcional" id="urbanización opcional" class="caja-texto">
+          </div>
+          <div>
+            <input type="text" name="codigo postal" placeholder="codigo postal" id="codigo postal" class="caja-texto">
+            <input type="text" name="cuidad" id="ciudad" placeholder="ciudad" class="caja-texto">
+            <input type="text" name="comunidad autonoma" id="comunidad autonoma" placeholder="comunidad autonoma"
+              class="caja-texto">
+          </div>
+          <div>
+            <input type="text" name="telefono" id="telefono" placeholder="telefono" class="caja-texto">
+            <input type="text" name="correo electronico" id="correo electronico" placeholder="correo electronico"
+              class="caja-texto">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>
