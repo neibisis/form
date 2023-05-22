@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: Roboto,sans-serif;
+}
+
+.principal{
+    display: flex;
+}
+
+.izquierda{
+    width: 20%;
+    height: 1000px;
+    padding: 30%px;
+    background-color: rgb(2, 2, 48);
+}
+
+.derecha{
+    width: 75%;
+    background-color:whitesmoke;
+    height: 1000px;
+}
+
+.encabezado-cv{
+    padding: 20px;
+    color:rgb(2, 2, 36);
+    font-family:Roboto,sans-serif;
+}
+
+a
+{color:whitesmoke;
+   text-decoration: none;
+font-size: 22px;
+}
+
+a:hover{
+    color:burlywood;
+}
+
+li{
+padding: 25px;
+}
+
+form{
+    text-align:center;
+}
+
